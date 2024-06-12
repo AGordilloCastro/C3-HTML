@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+article{
+    color: white;
+    font-size: 1em;
+}
+p{
+    font: 1em;
+}
+.banner{
+    width: 100vw; height: 20vw;
+    align-items: center;
+}
+.titulo{
+    color: darkorange;
+    font-size: 3em;
+    border: 2px solid gold;
+    width: 65vw;
+    margin: auto;
+    padding: 0.1em;
+}
+.titulo2{
+    color: darkorange;
+    font-size: 2em;
+}
+.titulo3{
+    color: greenyellow;
+}
+.lista{
+    color: red;
+    font-size: 1em;
+}
+.deco-inf{
+    width: 100px;
+}
+.logo{
+    height: 35px;
+    margin: auto;
+    border-radius: 25%;
+}
+#introduccion{
+    font-size: 2em;
+}
+.cards {
+    border: 2px solid white;
+    width: fit-content;
+    border-radius: 12%;
+}
+.cards:hover{
+    background-color: darkorange;
+    transition: 2s; 
+}
+#cards-container{
+    width: 85vw;
+    margin: auto;
+    margin-top: 1em;
+    border-radius: 12%;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+}
+#data-containerf{
+    justify-content: space-evenly;
+    display:flex;
+}
+#data-containern{
+    flex-direction: column;
+}

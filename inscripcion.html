@@ -1,74 +1,111 @@
 <!DOCTYPE html>
-<html lang="es">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Salsa y Bachata - inscripcion</title>
-   </head>
-   <body>
-      <header>    
+<html lang="en">
+    
+<head>
+    <br>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./estilos.css">
+    <link rel="stylesheet" type="text/css" href="./reset.css">
+    <title> Inscripciones </title>
+</head>
+<body>
+   <header>
+      <section>
+          <img class="banner" src="./banner central.jpg">
+          <div>
+              <span><a href="./index.html"> INICIO </a></span>
+             <span><a href="./inscripcion.html"> INSCRIPCION </a></span>
+          </div>
+      </section>
+  </header>
 
-         <img src="./banner central.jpg" width="1100px" height="250px">            
-<br>
-         <div>
-            <center>
-               <span><a href="./index.html">INICIO</a></span>
-               <span><a href="./inscripcion.html">INSCRIPCION</a></span>
-            </center>
-         </div>         
-      </header>
-         <p>FORMULARIO DE INSCRIPCION</p>
-         <br>
-         <p>Datos Personales</p>
-         <form>
-            <label for="Nombre y Apellido">Nombre y Apellido</label>
-            <input type="text" name="Nombre y Apellido">
-            <label for="E-mail">E-mail</label>
-            <input type="email" name="E-mail">
-            <label for="Celular ">Celular</label>
-            <input type="tel" name="Celular">
-            <label for="Cumpleaños">Cumpleaños</label>
-            <input type="date" name="Cumpleaños">
-         </form>
-         <br>
-         <p>Horarios clases</p>
-         <br>
-         <form>
-            <Label for="Semana" name="Semana">Dias</Label>
-            <input type="week" name="Semana">
-            <label for="Horarios" name="Horarios">Horarios</label>
-            <input type="time" name="Horarios">
-         </form>
-         <br>
-         <button type="button"> ENVIAR </button>
-   </body>
-
-   <footer>
-         <div>
-            <center>
-               <img src="./laterales salsa.jpg" width="120px" height="120px">
-               <img src="./laterales salsa.jpg" width="120px" height="120px">
-               <img src="./laterales salsa.jpg" width="120px" height="120px">
-               <img src="./laterales salsa.jpg" width="120px" height="120px">
-               <img src="./laterales salsa.jpg" width="120px" height="120px">
-            </center>
-         </div>   
-<br>
-      <h2>Para mayores informes</h2>
-         <center>
-            <div>
-               <span><img src="./Logo Wp.png" width="45px" height="45px"></span>
-               <span><h3>+54-9-11-****-****</h3></span>
-            </div>
-            <div>
-               <img src="./Logo Ig.png" width="45px" height="45px">
-               <h3>@Salsa_y_Bachata_BA</h3>
-            </div>
-            <div>
-               <img src="./Logo Fb.png" width="45px" height="45px">
-               <h3>Salseros y Bachateros BA</h3>
-            </div>
-         </center>
-   </footer>
-   
+  <br>
+  <main>
+      <br>
+      <body>
+          <section>
+            <h1 class="titulo">FORMULARIO DE INSCRIPCION</h1>
+            <br>
+            <br>
+            <article>
+            <h3>Datos Personales</h3>
+            <br>
+               <form>
+                <div id="data-containern">
+                    <div>
+                        <span><input type="text" name="Apellidos" placeholder="Apellidos"></span>
+                        <span><input type="text" name="Nombres" placeholder="Nombres"></span>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="email" name="Email" placeholder="Email">
+                        <input type="tel" name="Telefono" placeholder="Telefono">
+                    </div>    
+                </div>
+                    <br>
+                    <br>
+                    <button type="button"> GUARDAR </button>
+                </div>
+               </form>
+            </article>
+            <br>    
+            <br>
+            <article>
+            <h2 class="titulo2">HORARIOS DE CLASES</h2>
+            <br>
+               <form>
+                <div id="data-containerf">
+                    <div>
+                        <Label for="Semana" name="Semana">Dias: </Label>
+                        <input type="date" name="Semana">
+                    </div>
+                    <div>
+                        <label for="Horarios" name="Horarios">Horarios: </label>
+                        <input type="time" name="Horarios">
+                    </div>
+                </div>
+                    <br>
+                    <br>
+                    <button type="button"> BUSCAR </button>
+               </form>
+            </article>   
+         </section>
+      </body>
+      <br>
+      <footer>
+        <section>
+            <article>
+                <div>
+                <img class="deco-inf" src="./laterales salsa.jpg">
+                <img class="deco-inf" src="./laterales salsa.jpg">
+                <img class="deco-inf" src="./laterales salsa.jpg">
+                <img class="deco-inf" src="./laterales salsa.jpg">
+                <img class="deco-inf" src="./laterales salsa.jpg">
+                <img class="deco-inf" src="./laterales salsa.jpg">
+                <img class="deco-inf" src="./laterales salsa.jpg">
+                </div>
+            </article>
+            <article>
+                <br>
+                    <h2 class="titulo2">Para mayores informes</h2>
+                <div id="cards-container">
+                    <div class="cards">
+                        <span><img class="logo" src="./Logo Wp.png">
+                        <h3> +54-9-11-****-**** </h3></span>
+                    </div>
+                    <div class="cards">
+                        <img class="logo" src="./Logo Ig.png">
+                        <h3> @Salsa_y_Bachata_BA </h3>
+                    </div>
+                    <div class="cards">
+                        <img class="logo" src="./Logo Fb.png">
+                        <h3> Salseros y Bachateros BA </h3>
+                    </div>
+                </div>    
+            </article>
+        </section>
+    </footer>
+   </main>
+</body>
 </html>
